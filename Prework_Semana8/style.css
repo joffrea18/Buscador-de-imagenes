@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+header form > * {
+	padding: 0.25rem;
+}
+
+header {
+	padding: 1rem;
+	border-bottom: 1px solid gray;
+}
+
+header h1 {
+	margin-bottom: 1rem;
+}
+
+section.app {
+	padding: 1rem;
+}
+
+section.app ul {
+	list-style: none;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
